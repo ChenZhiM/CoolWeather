@@ -12,11 +12,19 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+<<<<<<< HEAD
 import com.example.mavis.coolweather.R;
 import com.example.mavis.coolweather.WeatherActivity;
 import com.example.mavis.coolweather.gson.Weather;
 import com.example.mavis.coolweather.util.HttpUtil;
 import com.example.mavis.coolweather.util.Utility;
+=======
+import com.coolweather.android.R;
+import com.coolweather.android.WeatherActivity;
+import com.coolweather.android.gson.Weather;
+import com.coolweather.android.util.HttpUtil;
+import com.coolweather.android.util.Utility;
+>>>>>>> dev
 
 import java.io.IOException;
 
