@@ -6,8 +6,10 @@ package com.example.mavis.coolweather.util;
  */
 import android.text.TextUtils;
 
-import com.example.mavis.coolweather.db.*;
-import com.example.mavis.coolweather.gson.*;
+import com.example.mavis.coolweather.db.City;
+import com.example.mavis.coolweather.db.County;
+import com.example.mavis.coolweather.db.Province;
+import com.example.mavis.coolweather.gson.Weather;
 import com.google.gson.Gson;
 
 import org.json.JSONArray;
@@ -17,7 +19,7 @@ import org.json.JSONObject;
 
 public class Utility {
    /** 解析和处理服务器返回的省级数据*/
-    public boolean handleProvinceResponse(String response){
+    public static boolean handleProvinceResponse(String response){
         if (!TextUtils.isEmpty(response)) {
             try {
                 JSONArray allProvinces = new JSONArray(response);
